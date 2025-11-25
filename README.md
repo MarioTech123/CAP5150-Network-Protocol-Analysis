@@ -9,22 +9,31 @@ configs/
 mgmt/
 
 sshd_config.mgmt # SSH server config used during misconfiguration test
+
 default-ssl.conf # Apache TLS vhost using the expired certificate
+
 ipsec.conf.mgmt # StrongSwan IPsec configuration for mgmt-node
+
 ipsec.secrets.mgmt # Pre-shared key used for IPsec testing
 
 gateway/
 
 ipsec.conf.gateway # StrongSwan IPsec configuration for gateway-node
+
 ipsec.secrets.gateway # Pre-shared key for gateway-node
 
 pcaps/
 
 expired_tls/ # TLS handshake showing expired certificate behavior
+
 ssh_misconfig/ # SSH password-authentication session packets
+
 ipsec_rekey/ # IKE/ESP packets during IPsec rekey event
+
 internal_traffic/ # Baseline enclave traffic used for verification
+
 second_test/ # Additional captures taken during evaluations
+
 
 screenshots/
 
