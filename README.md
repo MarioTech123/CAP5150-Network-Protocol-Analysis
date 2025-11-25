@@ -22,6 +22,9 @@ ipsec_rekey/ # IKE/ESP packets during IPsec rekey event
 internal_traffic/ # Baseline enclave traffic used for verification
 second_test/ # Additional captures taken during evaluations
 
+screenshots/
+All screenshots used in the final report, included for clarity and accessibility.
+
 ===== Purpose =====
 
 These artifacts support the evaluation of:
