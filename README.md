@@ -1,12 +1,12 @@
-===== CAP 5150 – Network Protocol Analysis Artifacts =====
+===== **CAP 5150 – Network Protocol Analysis Artifacts** =====
 
 This repository contains all packet captures and configuration files used in the CAP 5150 Final Project titled **“Network Security Protocols in Government Testing Environments.”** These artifacts correspond directly to the experiments described in the report, including TLS certificate expiration, SSH authentication testing, IPsec tunnel setup, and rekey behavior.
 
-===== Repository Structure =====
+===== **Repository Structure** =====
 
-configs/
+**configs/**
 
-mgmt/
+**mgmt/**
 
 sshd_config.mgmt # SSH server config used during misconfiguration test
 
@@ -16,13 +16,13 @@ ipsec.conf.mgmt # StrongSwan IPsec configuration for mgmt-node
 
 ipsec.secrets.mgmt # Pre-shared key used for IPsec testing
 
-gateway/
+**gateway/**
 
 ipsec.conf.gateway # StrongSwan IPsec configuration for gateway-node
 
 ipsec.secrets.gateway # Pre-shared key for gateway-node
 
-pcaps/
+**pcaps/**
 
 expired_tls/ # TLS handshake showing expired certificate behavior
 
@@ -35,11 +35,11 @@ internal_traffic/ # Baseline enclave traffic used for verification
 second_test/ # Additional captures taken during evaluations
 
 
-screenshots/
+**screenshots/**
 
 All screenshots used in the final report, included for clarity and accessibility.
 
-===== Purpose =====
+===== **Purpose** =====
 
 These artifacts support the evaluation of:
 
@@ -51,7 +51,7 @@ These artifacts support the evaluation of:
 
 Each file in this repository is referenced in the final report’s **Methodology** and **Evaluation & Results** sections.
 
-===== Usage =====
+===== **Usage** =====
 
 1. Clone the repository
 
@@ -59,7 +59,7 @@ Each file in this repository is referenced in the final report’s **Methodology
 
 3. Review configuration files to understand protocol behavior, policy changes, and rekey events.
 
-===== Author =====
+===== **Author** =====
 
 Mariano Ortiz  
 University of Central Florida  
